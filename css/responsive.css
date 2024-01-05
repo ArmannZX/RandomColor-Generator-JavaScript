@@ -1,0 +1,94 @@
+/*set default setting for elemnts*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.mainbody {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+body {
+    direction: ltr;
+    font-family: 'Hot-line-1';
+}
+
+html {
+    font-size: 20px;
+}
+/*responsive the img elemnts*/
+.responsimg {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.section1 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.maxscreenvh {
+    width: 100%;
+}
+/*----------------------------------------*/
+
+
+
+
+
+
+/*----------------------------------------*/
+/*Small devices (mobile phones)*/
+    .screen-small-1 {width: 8.33%;}
+    .screen-small-2 {width: 16.66%;}
+    .screen-small-3 {width: 25%;}
+    .screen-small-4 {width: 33.33%;}
+    .screen-small-5 {width: 41.66%;}
+    .screen-small-6 {width: 50%;}
+    .screen-small-7 {width: 58.33%;}
+    .screen-small-8 {width: 66.66%;}
+    .screen-small-9 {width: 75%;}
+    .screen-small-10 {width: 83.33%;}
+    .screen-small-11 {width: 91.66%;}
+    .screen-small-12 {width: 100%;}
+
+/*medium devices (tablets and medium screens)*/
+@media screen and (min-width:650px) {
+    .screen-medium-1 {width: 8.33%;}
+    .screen-medium-2 {width: 16.66%;}
+    .screen-medium-3 {width: 25%;}
+    .screen-medium-4 {width: 33.33%;}
+    .screen-medium-5 {width: 41.66%;}
+    .screen-medium-6 {width: 50%;}
+    .screen-medium-7 {width: 58.33%;}
+    .screen-medium-8 {width: 66.66%;}
+    .screen-medium-9 {width: 75%;}
+    .screen-medium-10 {width: 83.33%;}
+    .screen-medium-11 {width: 91.66%;}
+    .screen-medium-12 {width: 100%;}
+}
+
+/*large devices (dekstop and large screens)*/
+@media screen and (min-width:1200px) {
+    .screen-large-1 {width: 8.33%;}
+    .screen-large-2 {width: 16.66%;}
+    .screen-large-3 {width: 25%;}
+    .screen-large-4 {width: 33.33%;}
+    .screen-large-5 {width: 41.66%;}
+    .screen-large-6 {width: 50%;}
+    .screen-large-7 {width: 58.33%;}
+    .screen-large-8 {width: 66.66%;}
+    .screen-large-9 {width: 75%;}
+    .screen-large-10 {width: 83.33%;}
+    .screen-large-11 {width: 91.66%;}
+    .screen-large-12 {width: 100%;}
+}
+/*----------------------------------------*/
